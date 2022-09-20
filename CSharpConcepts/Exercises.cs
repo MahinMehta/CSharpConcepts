@@ -12,7 +12,7 @@ namespace CSharpConcepts
     {
         internal static void Run()
         {
-            CallTypeExercises();
+            //CallTypeExercises();
             CallSelectionExercises();
         }
 
@@ -20,14 +20,22 @@ namespace CSharpConcepts
         {
             // Add your calling code here for the questions an example is below
 
-            //Console.WriteLine("# Calculator");
-            //TypeExercises.Calculator(12, 5);
-            //Console.WriteLine();
+            /*Console.WriteLine("# Calculator");
+            TypeExercises.Calculator(12,4,3);
+            Console.WriteLine("# Calculator 2");
+            TypeExercises.Calculator2(1,2,3);*/
+            /*TypeExercises.BinaryStrings(128);
+            TypeExercises.BMICalculator();
+            TypeExercises.FutureDate(60000);
+            TypeExercises.SelectLanguage(2);
+            Console.ReadLine();*/
+
         }
 
         private static void CallSelectionExercises()
         {
-            // Add your calling code here for the selection questions
+            SelectionExercises.FizzBuzz(3);
+            Console.ReadLine();
         }
     }
 }
