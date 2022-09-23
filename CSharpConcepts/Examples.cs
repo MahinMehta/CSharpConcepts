@@ -34,7 +34,7 @@ namespace CSharpConcepts
 
             // To save commenting and uncommenting our code and to help test different cases we can use Debug.Assert            
             // Testing Sum            
-            Debug.Assert(IterationExamples.Sum(-1) == 2, "$Output unexpected");
+            Debug.Assert(IterationExamples.Sum(-1) == 0, "$Output unexpected");
             Debug.Assert(IterationExamples.Sum(10) == 55);
             Debug.Assert(IterationExamples.Sum(100) == 5050);
 
