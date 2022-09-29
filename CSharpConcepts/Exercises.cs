@@ -14,6 +14,7 @@ namespace CSharpConcepts
         {
             //CallTypeExercises();
             CallSelectionExercises();
+            OOPExercises.Run();
         }
 
         private static void CallTypeExercises()

@@ -7,10 +7,13 @@ namespace CSharpConcepts
     {
         internal static void Run()
         {
-            // CallTypeExamples();
-            // CallSelectionExamples();
-            CallIterationExamples();
-            // CallMathsExamples();
+            Circle circle = new Circle(4.2);
+            Console.WriteLine($"The circumference of the circle is {circle.Circumference}");
+            Console.WriteLine($"The area of the circle is {circle.Area}");
+            Console.WriteLine(circle.ToString());
+
+          //  Cat cat = new Cat("Willow", "tuna");
+          //  Console.WriteLine(cat.Greet());
         }
 
         private static void CallMathsExamples()
@@ -55,7 +58,7 @@ namespace CSharpConcepts
             };
             List<int> totalTestScores = IterationExamples.FindTotalTestScore(testScores);
             string totalTestScoreOutput = string.Join(", ", totalTestScores);
-            Console.WriteLine($"Total test scores are {totalTestScoreOutput}");           
+            Console.WriteLine($"Total test scores are {totalTestScoreOutput}");         
 
         }
 

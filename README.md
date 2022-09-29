@@ -17,3 +17,8 @@ Add code to test each subprogram in Exercises.cs<br>
 Where possible write Debug.Assert statements to do this<br>
 Extension1: Use Test Explorer to run the Unit Tests in IterationExerciseTests, they should pass<br>
 Extension2: Write your own unit tests for the remaining exercises<br>
+
+### 4. Introduction to OOP Exercises<br>
+In CSharpConcepts OOPExercises write code to call the Diary object, add events to it and check your diary<br>
+In CSharpConcepts.Classes.Exercises write the BankAccount and AccountTransaction classes following the instructions<br>
+Use a combination of manual testing (with calling code) and either Debug.Assert statements or Unit Tests to test your new objects<br>
